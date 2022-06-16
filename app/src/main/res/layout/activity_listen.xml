@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".ListenActivity"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_listen_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="听力测试"
+        android:textColor="@color/colorBlack"
+        android:gravity="center_horizontal"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_play"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="播放听力"
+                android:textColor="@color/colorBlack"
+                android:background="#00000000"
+                />
+
+            <View
+                android:layout_width="1dp"
+                android:background="#C6C5C5"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:id="@+id/btn_pause"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="暂停播放"
+                android:background="#00000000"
+                android:textColor="@color/colorBlack" />
+
+            <View
+                android:layout_width="1dp"
+                android:background="#C6C5C5"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:id="@+id/btn_stop"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="停止播放"
+                android:background="#00000000"
+                android:textColor="@color/colorBlack" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_listen_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Section A"
+            android:textAllCaps="false"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question 1 to 4 are based on the conversation you have just heard"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <CheckBox
+            android:id="@+id/cb_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buy a used car"
+            android:textColor="@color/colorBlack"/>
+
+        <CheckBox
+            android:id="@+id/cb_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb_1"
+            android:text="Have his car repaired"
+            android:textColor="@color/colorBlack"/>
+
+        <CheckBox
+            android:id="@+id/cb_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb_2"
+            android:text="Pass a driving test"
+            android:textColor="@color/colorBlack"/>
+
+        <CheckBox
+            android:id="@+id/cb_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb_3"
+            android:text="Sell a car"
+            android:textColor="@color/colorBlack"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_listen_question_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Section B"
+                android:textAllCaps="false"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question 1 to 4 are based on the conversation you have just heard"
+                android:textColor="@color/colorBlack"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <CheckBox
+                android:id="@+id/cb_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Subjective"
+                android:textColor="@color/colorBlack"/>
+
+            <CheckBox
+                android:id="@+id/cb_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cb_5"
+                android:text="Objective"
+                android:textColor="@color/colorBlack"/>
+
+            <CheckBox
+                android:id="@+id/cb_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cb_6"
+                android:text="Ambiguous"
+                android:textColor="@color/colorBlack"/>
+
+            <CheckBox
+                android:id="@+id/cb_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cb_7"
+                android:text="Changeable"
+                android:textColor="@color/colorBlack"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_listen_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="提交"
+            android:textColor="@color/colorBlack"
+            android:layout_below="@id/cb_4"
+            android:background="@drawable/btn_white"
+            android:layout_marginTop="10dp"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>

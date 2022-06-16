@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@drawable/background"
+    tools:context=".TestActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="今日测试"
+            android:gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textColor="@color/colorBlack"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Test 1 : Word"
+                android:textAllCaps="false"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tremendous"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:background="@drawable/btn_white"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorBlack"/>
+
+            <CheckBox
+                android:id="@+id/cb_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="adj. 巨大的；极大的；惊人的"
+                android:textColor="@color/colorBlack"/>
+
+            <CheckBox
+                android:id="@+id/cb_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cb_1"
+                android:text="n. 公文包"
+                android:textColor="@color/colorBlack"/>
+
+            <CheckBox
+                android:id="@+id/cb_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cb_2"
+                android:text="n. 芳香 ，香气"
+                android:textColor="@color/colorBlack"/>
+
+            <CheckBox
+                android:id="@+id/cb_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cb_3"
+                android:text="adj. 能实行的，行得通的"
+                android:textColor="@color/colorBlack"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_listen_comprehension"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Test 2 : Comprehension"
+                android:textAllCaps="false"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"/>
+
+            <TextView
+                android:id="@+id/tv_read"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/comprehension"
+                android:textColor="@color/colorBlack"
+                android:textSize="17sp"
+                android:padding="4dp"
+                android:layout_below="@id/tv_title"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_username"
+                />
+
+            <Button
+                android:id="@+id/tv_question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question"
+                android:textAllCaps="false"
+                android:textColor="@color/colorBlack"
+                android:layout_below="@id/tv_read"
+                android:background="@drawable/btn_white"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_marginTop="15dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/tv_check"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_question"
+                    android:text="What might be the concerns of male caregivers according to Locuis Colbert?"
+                    android:textColor="@color/colorBlack"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:maxEms="10"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="They lack professional konwledge and skills."
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorBlack"/>
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="They find it inappropriate for them to do the job."
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorBlack"/>
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Their roles as caregivers is not acknowledge."
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorBlack"/>
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="They feel what they do is not enough"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorBlack"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="What can we know about the men?"
+                    android:textColor="@color/colorBlack"
+                    android:maxLines="3"
+                    android:ellipsize="end"
+                    android:maxEms="10"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="More men are playing the leading role in caring for elderly parents."
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorBlack"/>
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Men count on their wives to take care of their parents."
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorBlack"/>
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Their roles as caregivers is not acknowledge."
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorBlack"/>
+
+                <CheckBox
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Men tend to be viewed as heroes for caring for their parents."
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorBlack"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_test_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="提交"
+                android:textColor="@color/colorBlack"
+                android:layout_below="@id/cb_4"
+                android:background="@drawable/btn_white"
+                android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

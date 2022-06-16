@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/xxlx">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp"
+        android:background="#00000000"
+        >
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_user_head_1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:cardCornerRadius="45dp"
+            app:cardElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            >
+            <ImageView
+                android:id="@+id/tv_user_head"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/cat"
+                android:scaleType="centerCrop"/>
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/bg_username"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:textSize="22sp"
+            android:layout_marginLeft="20dp"
+            android:text="Cherry"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:background="#00000000"
+        >
+
+
+        <Button
+            android:id="@+id/btn_0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login Firstly"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:layout_marginTop="360dp"
+            android:background="#00000000"
+
+            />
+
+        <Button
+            android:id="@+id/btn_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recite Words"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:background="#00000000"
+            />
+
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Read Comprehension"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:background="#00000000"
+
+            />
+
+        <Button
+            android:id="@+id/btn_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Listening test"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:background="#00000000"
+
+            />
+
+        <Button
+            android:id="@+id/btn_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="One Day Test"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:background="#00000000"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

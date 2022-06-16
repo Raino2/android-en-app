@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/background"
+    tools:context=".English.English_QuestionnaireActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_questionnaire_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Please fill in the correct information!"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:background="@drawable/btn_white"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="10dp"
+            android:text="Please select the stage that suits you."
+            android:textAllCaps="false"
+            android:textColor="@color/colorBlack" />
+
+        <CheckBox
+            android:id="@+id/cb_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Primary School English"
+            android:textAllCaps="false"
+            android:textColor="@color/colorBlack" />
+
+        <CheckBox
+            android:id="@+id/cb_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb_1"
+            android:text="Middle school English"
+            android:textAllCaps="false"
+            android:textColor="@color/colorBlack" />
+
+        <CheckBox
+            android:id="@+id/cb_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb_2"
+            android:text="the National Matriculation English"
+            android:textAllCaps="false"
+            android:textColor="@color/colorBlack" />
+
+        <CheckBox
+            android:id="@+id/cb_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb_3"
+            android:text="CET-4"
+            android:textColor="@color/colorBlack" />
+
+        <CheckBox
+            android:id="@+id/cb_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb_4"
+            android:text="CET-6"
+            android:textAllCaps="false"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Please select your study plan"
+            android:textAllCaps="false"
+            android:textColor="@color/colorBlack" />
+
+        <CheckBox
+            android:id="@+id/cb_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Word + reading + listening"
+            android:textAllCaps="false"
+            android:textColor="@color/colorBlack" />
+
+        <CheckBox
+            android:id="@+id/cb_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb_6"
+            android:text="Word + reading + listening"
+            android:textAllCaps="false"
+            android:textColor="@color/colorBlack" />
+
+        <CheckBox
+            android:id="@+id/cb_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb_7"
+            android:text="Read only training"
+            android:textAllCaps="false"
+            android:textColor="@color/colorBlack" />
+
+        <CheckBox
+            android:id="@+id/cb_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb_8"
+            android:text="Special listening training"
+            android:textAllCaps="false"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Please select a thesaurus source"
+            android:textAllCaps="false"
+            android:textColor="@color/colorBlack" />
+
+        <CheckBox
+            android:id="@+id/cb_3_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Oxford Dictionary"
+            android:textAllCaps="false"
+            android:textColor="@color/colorBlack" />
+
+        <CheckBox
+            android:id="@+id/cb_3_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb_3_1"
+            android:text="Webster's Dictionary"
+            android:textAllCaps="false"
+            android:textColor="@color/colorBlack" />
+
+        <CheckBox
+            android:id="@+id/cb_3_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb_3_2"
+            android:text="English and Chinese word library"
+            android:textAllCaps="false"
+            android:textColor="@color/colorBlack" />
+
+        <CheckBox
+            android:id="@+id/cb_3_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb_3_3"
+            android:text="Highlights of American pronunciation"
+            android:textAllCaps="false"
+            android:textColor="@color/colorBlack" />
+
+        <Button
+            android:id="@+id/btn_questionnaire_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb_4"
+            android:layout_marginTop="10dp"
+            android:text="Commit"
+            android:textAllCaps="false"
+            android:background="@drawable/btn_white"
+            android:textColor="@color/colorBlack" />
+
+    </LinearLayout>
+
+
+</ScrollView>

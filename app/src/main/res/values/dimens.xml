@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dividerHeight">1dp</dimen>
+    <dimen name="dividerHeight2">5dp</dimen>
+<!--    如果不不自定义分割线的颜色，那么分割线的颜色将会是item的背景颜色-->
+</resources>

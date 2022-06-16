@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/background"
+    tools:context=".QuestionnaireActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_questionnaire_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="请在本问卷中填写正确信息"
+            android:textSize="19sp"
+            android:gravity="center"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="10dp"
+            android:text="请选择适合您的阶段"
+            android:textColor="@color/colorBlack" />
+
+        <CheckBox
+            android:id="@+id/cb_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="小学英语"
+            android:textColor="@color/colorBlack" />
+
+        <CheckBox
+            android:id="@+id/cb_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb_1"
+            android:text="中学英语"
+            android:textColor="@color/colorBlack" />
+
+        <CheckBox
+            android:id="@+id/cb_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb_2"
+            android:text="高考英语"
+            android:textColor="@color/colorBlack" />
+
+        <CheckBox
+            android:id="@+id/cb_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb_3"
+            android:text="四级"
+            android:textColor="@color/colorBlack" />
+
+        <CheckBox
+            android:id="@+id/cb_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb_4"
+            android:text="六级"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="请选择您的学习计划"
+            android:textColor="@color/colorBlack" />
+
+        <CheckBox
+            android:id="@+id/cb_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="单词+阅读+听力"
+            android:textColor="@color/colorBlack" />
+
+        <CheckBox
+            android:id="@+id/cb_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb_6"
+            android:text="单词专训"
+            android:textColor="@color/colorBlack" />
+
+        <CheckBox
+            android:id="@+id/cb_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb_7"
+            android:text="阅读专训"
+            android:textColor="@color/colorBlack" />
+
+        <CheckBox
+            android:id="@+id/cb_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb_8"
+            android:text="听力专训"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="请选择词库来源"
+            android:textColor="@color/colorBlack" />
+
+        <CheckBox
+            android:id="@+id/cb_3_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="牛津词典"
+            android:textColor="@color/colorBlack" />
+
+        <CheckBox
+            android:id="@+id/cb_3_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb_3_1"
+            android:text="韦氏字典"
+            android:textColor="@color/colorBlack" />
+
+        <CheckBox
+            android:id="@+id/cb_3_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb_3_2"
+            android:text="英汉超大词库"
+            android:textColor="@color/colorBlack" />
+
+        <CheckBox
+            android:id="@+id/cb_3_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb_3_3"
+            android:text="美式发音集锦"
+            android:textColor="@color/colorBlack" />
+
+        <Button
+            android:id="@+id/btn_questionnaire_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb_4"
+            android:layout_marginTop="10dp"
+            android:text="提交"
+            android:background="@drawable/btn_white"
+            android:textColor="@color/colorBlack" />
+
+    </LinearLayout>
+
+</ScrollView>
